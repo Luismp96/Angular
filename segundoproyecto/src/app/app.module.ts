@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { PiedepaginaComponent } from './piedepagina/piedepagina.component';
+import { MenuComponent } from './menu/menu.component';
+import { BannerComponent } from './banner/banner.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabeceraComponent,
     PrincipalComponent,
-    PiedepaginaComponent
+    PiedepaginaComponent,
+    MenuComponent,
+    BannerComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
