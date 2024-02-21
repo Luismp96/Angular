@@ -1,3 +1,7 @@
+*{
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
 }
@@ -5,4 +9,7 @@ ul{
 ul li{
     display : inline-block;
     margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    color: blue;
 }

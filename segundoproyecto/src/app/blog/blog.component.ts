@@ -12,5 +12,5 @@ export class BlogComponent {
 
   //CREAMOS ARRAY CON TODO RELLENO A 0
   articulos = Array(this.numero_articulos).fill(0);
-  
+
 }

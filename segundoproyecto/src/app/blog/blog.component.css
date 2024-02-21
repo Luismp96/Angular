@@ -3,6 +3,7 @@ article{
     box-sizing: border-box;
     padding: 10px;
     float: left;
-    border:1 px solid black;
+    border: 1px solid black;
     margin: 8px;
+    text-align: center;
 }
