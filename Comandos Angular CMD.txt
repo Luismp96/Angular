@@ -1,0 +1,58 @@
+
+0) Instalamos Angular
+
+1) Creamos Proyecto
+
+	ng new nombre_proyecto
+
+	ng new primerproyecto (en mi caso)
+
+- Seleccionamos CSS
+
+- Pulsamos 'S'
+
+- Se crea Proyecto..
+
+2) entramos en carpeta proyecto creado
+
+	ng serve --open 
+
+3) dentro de la carpeta del proyecto tambien (nos compila el proyecto)
+
+	ng build 
+
+	Se crea carpeta dist (Distribution) -> Se ha compilado app angular para subir a servidor
+
+4) creamos nuevo proyecto
+
+	ng new segundoproyecto --standalone= false (en mi caso)
+
+
+5) Vaciamos app.component.html
+
+6) control + c para salir del serve
+
+7) creamos nuevo componente (desde carpeta segundo proyecto)
+
+	ng generate component nombre_componente
+
+	ng generate component cabecera (en mi caso)
+
+
+Dentro de la carpeta app me ha creado el componente (cabecera)
+
+8) creamos nuevo componente (desde carpeta segundo proyecto)
+
+	ng generate component principal
+
+8) creamos nuevo componente (desde carpeta segundo proyecto)
+
+	ng generate component piedepagina
+
+
+9) selector del componente en .ts para añadirlo a app.component (raiz)
+
+10) generamos nuevo componente (menu)
+
+	ng generate component menu
+
